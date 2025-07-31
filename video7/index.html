@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Lets learn it</title>
+    <style>
+        .vl {
+            border-left: 6px solid green;
+            height: 500px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <form action="post">
+        <div align="center">
+            <h1>Form</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" autofocus
+                required>
+
+        </div>
+        <div align="center">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter email" autocomplete="email" required>
+
+        </div>
+        <div align="center">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="enter password" required>
+        </div>
+        <div align="center">
+
+            <input type="radio" id="male" name="gender" value="male">
+            <! onclick="alert('You clicked male')">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <!onclick="alert('You clicked female">
+                    <label for="female">female</label>
+        </div>
+        <div align="center">
+
+            <hr> <textarea id="message" name="message" rows="4" cols="50"
+                placeholder="Enter your message here..."></textarea></hr>
+        </div>
+        <div align="center">
+
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
